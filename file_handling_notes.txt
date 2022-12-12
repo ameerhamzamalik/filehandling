@@ -1,0 +1,28 @@
+import os
+
+#  TO OPEN A FILE
+# f = open("meer.txt","rt")
+# print(f.read())
+
+
+#TO OPEN A TEXT FILE
+# f = open("C:\\Users\Fakhar Traders\Desktop\hamza.txt", "rt")
+# print(f.read())
+
+# TO OPEN AND APPEND A FILE
+# f = open("C:\\Users\Fakhar Traders\Desktop\hamza.txt", "a")
+# f.write("Ameer Hamza Here!!")
+# f.close()
+
+# f = open("C:\\Users\Fakhar Traders\Desktop\hamza.txt", "rt")
+# print(f.read())
+
+
+
+#TO WRITE FILE
+f = open("C:\\Users\Fakhar Traders\Desktop\hamza.txt", "w")
+f.write("Hi !! This is Ameer Hamza !! HOW ARE YOU?? ")
+f.close()
+
+f = open("C:\\Users\Fakhar Traders\Desktop\hamza.txt", "rt")
+print(f.read())
